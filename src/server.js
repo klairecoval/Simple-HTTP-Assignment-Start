@@ -29,7 +29,7 @@ const onRequest = (request, response) => {
       jsonHandler.getTimeJSON(request, response);
       break;
     case '/dankmemes':
-        imageHandler.getImage(request, response);
+      imageHandler.getImage(request, response);
       break;
     default:
       htmlHandler.getIndex(request, response);
