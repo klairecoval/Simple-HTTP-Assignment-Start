@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
+  "description": "Simple HTTP assignment HW",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klairecoval/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Claire Koval",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/klairecoval/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/klairecoval/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
